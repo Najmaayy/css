@@ -1,0 +1,89 @@
+
+/*
+h1 { 
+    /* Colors via names */
+    /* color: red; */
+
+    /* Colors via rgb */
+    /* rgb = red , green , blue */
+    /* Min value is 0 = black */
+    /* Mac value is 255 = white */
+    /* color: rgb(170, 170, 218); */
+
+    /* Color via Hexadecimal */
+    /*color: #ffff15; } */
+
+
+/* General page styles */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    background-color: rgba(0, 0, 255, 0.5); /* blue with 50% opacity */
+    margin: 20px;
+}
+
+
+/* Headings */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+/* Tables */
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Table headers */
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Table cells */
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 10px;
+}
+
+/* Color preview boxes */
+.preview {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #333;
+}
+
+/* Explanation section */
+.explanation {
+    width: 80%;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* Code styling in explanations */
+.explanation code {
+    background-color: #eaeaea;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+}
